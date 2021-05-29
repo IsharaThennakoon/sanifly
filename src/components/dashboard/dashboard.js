@@ -7,11 +7,12 @@ class Dashboard extends Component{
     render(){
         return(
             <Container fluid>
+
                 <Row>
-                    <Col xs={2} sm={2} lg={2} id="sidenav-wrapper">      
-                      <SideNav />
+                    <Col xs={12} sm={2} lg={0} id="sidenav-wrapper">      
+                       <SideNav /> 
                     </Col>
-                    <Col  xs={10} id="page-content-wrapper">
+                    <Col  xs={12} id="page-content-wrapper">
                         <div class="row mr-0 pr-0">
                             
                             <div class="col-md-12 mr-0 pr-0" >
